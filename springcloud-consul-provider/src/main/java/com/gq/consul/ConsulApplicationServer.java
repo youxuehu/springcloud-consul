@@ -10,6 +10,6 @@ import java.util.Scanner;
 @EnableDiscoveryClient
 public class ConsulApplicationServer {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(ConsulApplicationServer.class).web(true).properties("server.port="+new Scanner(System.in).nextInt()).run(args);
+        new SpringApplicationBuilder(ConsulApplicationServer.class).web(true).properties("server.port=8888").run(args);
     }
 }
