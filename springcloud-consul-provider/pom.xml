@@ -86,7 +86,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
           <fork>true</fork>
-          <mainClass>com.fileupload.FileUploadWebApplication</mainClass>
+          <mainClass>com.gq.consul.ConsulApplicationServer</mainClass>
           <layout>ZIP</layout>
 
         </configuration>
